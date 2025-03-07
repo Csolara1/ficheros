@@ -7,8 +7,21 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Scanner;
 
+/**
+ * Clase principal que contiene toda la logica.
+ * 070325
+ * @author CSL
+ */
+
 public class Inicio {
 
+	/**
+	 * Metodo principal de la aplicación que contiene todas las operaciones matematicas junto
+	 * al fichero.
+	 * 070325 - CSL
+	 * @param args
+	 */
+	
 	public static void main(String[] args) {
 		
         Path path = Paths.get("ejemplo.txt");
